@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*index inicio*/
+/*header*/
+
+.cabecera-conteiner{
+color: black;
+background-color: white;
+padding: 20px 0;
+display: flex;
+justify-content: center;
+border: solid black;
+}
+
+.logo{
+    width: 85px;
+    display: flex;
+    justify-content: center;
+}
+/*main*/
+.carousel-conteiner{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.menu-pricipal{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: white;
+    border: solid black;
+   
+}
+
+.menu{
+    color: black;
+}
+
+/*ANIMACIONES y TRANSICIONES*/
+
+.menu-principal:hover{
+    transform: scale(4);
+    transition: all 2s;
+}
+
+
+
+.ilustraciones{
+    padding: 95px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    background-color: rgb(109, 136, 109);
+    padding-top: 30px;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+h2{
+    margin-top: 10px;
+    color: beige;
+    font-style: oblique;
+    font-weight: 200;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+ul{
+    font-style: oblique;
+    color: rgb(169, 201, 169);
+    margin-left: 40px;
+    font-weight: 100;
+    
+}
+/* index fin*/
+
+/*TITULOS PRINCIPALES DE CADA HTML*/
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+/*PRODUCTOS*/
+
+.grid-conteiner{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(3,300px);
+    gap: 10px;
+}
+
+.volver{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 30;
+    color: black;
+}
+
+/*MATERIALES*/
+.info{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    padding: 30px;
+}
+
