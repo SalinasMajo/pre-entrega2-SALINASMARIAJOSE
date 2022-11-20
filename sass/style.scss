@@ -30,6 +30,9 @@ main{
     section{
         display: flex;
         justify-content: center;
+        @media screen {
+            max:768px;    
+        }
     }
 
     section{
@@ -40,6 +43,9 @@ main{
          color: black;
          background-color: white;
          border: solid black;
+         @media screen {
+            max:768px;    
+        }
 
          div{
             color: black;
@@ -52,6 +58,9 @@ main{
         padding: 95px;
         display: flex;
         justify-content: space-around;
+        @media screen {
+            max:768px;    
+        }
 
     }
 
