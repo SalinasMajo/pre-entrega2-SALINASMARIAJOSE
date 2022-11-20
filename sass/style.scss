@@ -5,11 +5,7 @@ header{
     display: flex;
     justify-content: center;
     border: solid black;
-    @media screen {
-        max: 768px;
-        min:360px;
-        
-    }
+
     div{
 
         div{
@@ -18,71 +14,58 @@ header{
             justify-content: center;
         }
     }
+
+    @media screen {
+        min-width: 414px;
+        max-width: 736px;
+        
+    }
 }
 
 main{
-
     background-color: rgb(109, 136, 109);
     padding-top: 30px;
-    @media screen {
-        max:768px;  
-        min:360px;  
-    }
-
+    
     section{
         display: flex;
         justify-content: center;
-        @media screen {
-            max:768px; 
-            min:360px;   
-        }
     }
-
+    
     section{
-        margin-top: 30px;
+         margin-top: 30px;
          display: flex;
          justify-content: space-around;
          font-family: Verdana, Geneva, Tahoma, sans-serif;
          color: black;
          background-color: white;
          border: solid black;
-         @media screen {
-            max:768px;    
-            min: 360px;
-        }
+        
 
          div{
             color: black;
-            transform: scale(3);
-            transition: 2s;
-            @media screen {
-                max:768px;
-                min: 360px;
+            &:hover{
+                transform: scale(3);
+                transition: 2s;
+            }
             }
          }
-    }
-
-    section{
-        padding: 95px;
-        display: flex;
-        justify-content: space-around;
-        @media screen {
-            max:768px; 
-            min:360px;   
+         
+     section{
+         padding: 95px;
+         display: flex;
+         justify-content: space-around;
         }
 
-    }
-
+        @media screen {
+            min-width: 414px;
+            max-width: 736px;  
+        }
 }
 
 footer{
     display: flex;
     justify-content: space-around;
     background-color: black;
-    @media screen {
-        max:768px;
-        min:360px;
-    }
 
     div{
         h2{
@@ -102,6 +85,11 @@ footer{
                 font-weight: 100;
             }
         }
+    }
+    @media screen {
+        min-width: 414px;
+        max-width: 736px;
+        
     }
 
 }
