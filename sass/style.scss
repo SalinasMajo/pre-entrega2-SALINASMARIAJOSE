@@ -7,6 +7,7 @@ header{
     border: solid black;
     @media screen {
         max: 768px;
+        min:360px;
         
     }
     div{
@@ -24,14 +25,16 @@ main{
     background-color: rgb(109, 136, 109);
     padding-top: 30px;
     @media screen {
-        max:768px;    
+        max:768px;  
+        min:360px;  
     }
 
     section{
         display: flex;
         justify-content: center;
         @media screen {
-            max:768px;    
+            max:768px; 
+            min:360px;   
         }
     }
 
@@ -45,12 +48,17 @@ main{
          border: solid black;
          @media screen {
             max:768px;    
+            min: 360px;
         }
 
          div{
             color: black;
             transform: scale(3);
             transition: 2s;
+            @media screen {
+                max:768px;
+                min: 360px;
+            }
          }
     }
 
@@ -59,7 +67,8 @@ main{
         display: flex;
         justify-content: space-around;
         @media screen {
-            max:768px;    
+            max:768px; 
+            min:360px;   
         }
 
     }
@@ -72,6 +81,7 @@ footer{
     background-color: black;
     @media screen {
         max:768px;
+        min:360px;
     }
 
     div{
